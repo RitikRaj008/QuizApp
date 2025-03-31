@@ -1,0 +1,12 @@
+<h1>Quiz Questions</h1>
+<ul>
+  <li *ngFor="let question of questions">
+    <strong>{{ question.questionTitle }}</strong>
+    <ul>
+      <li>{{ question.option1 }}</li>
+      <li>{{ question.option2 }}</li>
+      <li>{{ question.option3 }}</li>
+      <li>{{ question.option4 }}</li>
+    </ul>
+  </li>
+</ul>
